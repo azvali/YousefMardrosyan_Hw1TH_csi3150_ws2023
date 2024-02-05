@@ -1,0 +1,22 @@
+.quote{
+    font-size: 24px;
+    font-weight: bold;
+    color: grey;
+    font-family: "consolas", sans-serif;
+    border-style: dashed;
+    border-color: orangered;
+}
+body{
+    margin: 0%;
+    background-image: url(../Assets/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#avtrimg{
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: calc(center);
+}
