@@ -1,10 +1,11 @@
 .quote{
     font-size: 24px;
     font-weight: bold;
-    color: grey;
+    color:cadetblue;
     font-family: "consolas", sans-serif;
-    border-style: dashed;
-    border-color: orangered;
+    border-style: solid;
+    border-color:darkcyan;
+    padding: 30px;
 }
 body{
     margin: 0%;
@@ -15,8 +16,15 @@ body{
 }
 
 #avtrimg{
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    margin-left: calc(center);
+    display: grid;
+    place-items: center;
+}
+
+#portfolioHeader{
+    font-family: "consolas", sans-serif;
+    color: darkcyan;
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    font-size: 50px;
 }
