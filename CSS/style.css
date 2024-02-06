@@ -1,8 +1,13 @@
+*{
+    font-family: "consolas", sans-serif;
+    
+}
+
+
 .quote{
     font-size: 24px;
     font-weight: bold;
     color:cadetblue;
-    font-family: "consolas", sans-serif;
     border-style: solid;
     border-color:darkcyan;
     padding: 30px;
@@ -16,15 +21,40 @@ body{
 }
 
 #avtrimg{
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 #portfolioHeader{
     font-family: "consolas", sans-serif;
     color: darkcyan;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
     font-size: 50px;
+}
+
+.HomepageNavbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.HomepageNavbar li{
+    margin-right: 100px;
+}
+.HomepageNavbar a{
+    text-decoration: none;
+}
+.HomepageNavbar #resume{
+
+}
+
+.HomepageNavbar #funfact{
+
+}
+.HomepageNavbar #home{
+    background-color: black;
+    backg;
 }
