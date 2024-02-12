@@ -1,0 +1,112 @@
+*{
+    font-family: "consolas", sans-serif;    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header h1{
+    color: rgb(25, 223, 223);
+    font-size: 45px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+
+.HomepageNavbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.HomepageNavbar li{
+    margin-right: 25px;
+    margin-top: 5px;
+    
+}
+
+.HomepageNavbar a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 30px;
+    margin: 20px;
+    padding: 30px;
+    width: 200px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: indigo;
+}
+
+.HomepageNavbar a:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+.HomepageNavbar a:active{
+    background-color: white;
+    cursor: pointer;
+}
+
+body{
+    margin: 0%;
+    background-image: url(../Assets/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    background-color: indigo;
+    margin: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+main .favBook, .favSong, .favMovie{
+    background-color: rgb(27, 21, 26);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main h2{
+    color: rgb(25, 223, 223);
+    font-size: 25px;
+}
+main h4{
+    color: rgb(25, 223, 223);
+    font-size: 20px;
+}
+main p{
+    color: rgb(25, 223, 223);
+}
+
+main a{
+    color: rgb(234, 5, 234);
+}
+footer {
+    background-color: indigo; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+footer a {
+    color: #add8e6; 
+    text-decoration: none; 
+}
+
+footer ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+footer li {
+    display: inline; 
+    margin: 0 10px; 
+}
