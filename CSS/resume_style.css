@@ -1,19 +1,18 @@
 *{
     font-family: "consolas", sans-serif;    
 }
-.header{
+
+.nav_title_container{
     display: flex;
     justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 20px;
+    padding: 30px;
 }
-.header h1{
+h1{
     color: rgb(25, 223, 223);
     font-size: 45px;
     position: relative;
     left: 200px;
-    top: 30px;
+    top: 20px;
     background-color: indigo;
     display: flex;
     justify-content: center;
@@ -23,16 +22,15 @@
     height: 75px;
     border-radius: 10px;
 }
-
 .HomepageNavbar ul{
     list-style: none;
     display: flex;
-    margin-top: 30px;
 }
 
 .HomepageNavbar li{
     margin-right: 25px;
     margin-top: 5px;
+    
 }
 
 .HomepageNavbar a{
@@ -57,6 +55,7 @@
     cursor: pointer;
     transform: scale(1.05);
 }
+
 .HomepageNavbar a:active{
     background-color: white;
     cursor: pointer;
@@ -70,35 +69,56 @@ body{
     background-position: center;
 }
 
-main{
+#contact_container {
     background-color: indigo;
-    margin: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 20px;
-    padding-bottom: 30px;
-}
-
-main .favBook, .favSong, .favMovie{
-    background-color: rgb(27, 21, 26);
+    color: white;
     padding: 20px;
+    margin: 20px;
     border-radius: 10px;
 }
 
-main h2{
+#contact_container h2, .objective h2, .work h2, .education h2, .extracurriculars h2 {
     color: rgb(25, 223, 223);
-    font-size: 25px;
-}
-main h4{
-    color: rgb(25, 223, 223);
-    font-size: 20px;
-}
-main p{
-    color: rgb(25, 223, 223);
+    margin-bottom: 15px;
+    
 }
 
-main a{
-    color: rgb(234, 5, 234);
+#contact_container ul, .objective p, .work ul, .education table, .extracurriculars p {
+    color: white;
+}
+
+#contact_container a, .work a, .education a, .extracurriculars a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+#contact_container li, .work li {
+    margin-bottom: 10px;
+}
+
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.education th, .education td {
+    border: 1px solid #6272a4;
+    padding: 8px;
+}
+
+.education th {
+    background-color: #44475a;
+}
+
+.education td {
+    background-color: #6272a4;
+}
+
+section {
+    background-color: #282a36;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
 }
 footer {
     background-color: indigo; 

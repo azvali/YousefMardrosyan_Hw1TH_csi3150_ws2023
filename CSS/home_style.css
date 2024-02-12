@@ -32,7 +32,9 @@
     justify-content: center;
     border-radius: 10px;
     width: 45%;
-    height: auto;
+    height: 75px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -62,11 +64,13 @@
     height: 20px;
     border-radius: 100px;
     background-color: indigo;
+    transition: transform 0.3s ease;
 }
 
 .HomepageNavbar a:hover{
     background-color: purple;
     cursor: pointer;
+    transform: scale(1.05);
 }
 .HomepageNavbar a:active{
     background-color: white;
